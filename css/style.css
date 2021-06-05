@@ -1,0 +1,385 @@
+/* general style*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.sections{
+    padding: 20px 0;
+}
+.overlay{
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(0,0,0,0);
+    
+}
+/* header */
+header{
+height: auto;
+padding: 10px 0;
+position: fixed; 
+width: 100%;
+ z-index: 9999; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+header i.icon {
+    position: absolute;
+    right: 30px;
+    z-index: 10;
+    top: 21px;
+    display: none;
+}
+header .logo h2{
+     font-size:  50px;;
+     color:#e599f7;
+     font-family: 'Pacifico', cursive;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer
+}
+header .logo h2:hover{
+     transform: scale(1.05);
+    transform: rotate(1turn);
+}
+
+header nav .nav-list {
+list-style: none;
+display: flex;
+justify-content: space-around;
+    margin-top: 10px
+
+}
+
+header nav .nav-list a{
+    display: block;
+    padding: 15px;
+    margin: 9px 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out ;
+    color:#ff914d;
+    font-size: medium;
+    color: #292435;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase
+    
+    }
+
+header nav .nav-list .offer a{
+
+
+    color: darkorange;
+
+    }
+
+header i.icon {
+        color: darkorange
+    }
+header nav .nav-list a:hover{
+    transform: scale(1.1)
+        }
+        
+ @media (max-width:575px ){
+    header nav .nav-list {
+        display: none;
+        text-align: center;
+    }
+    header .logo{
+        text-align: center;
+        
+    }
+    header i.icon {
+        display: block;
+    }
+}
+.sticky{
+    background:#ffffffeb;
+    color:darkorange!important
+}
+.fa-bars{
+    
+    margin-top: 20px
+}
+/* home section*/
+.home {
+    height: 700px;
+    background-image: url(../images/homepic1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+.home-title{
+    
+    color: #ff914d;
+    visibility: visible;
+    
+    margin-top: 200px;
+    
+    
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 110px;
+    text-align: center;
+    letter-spacing: 2px
+}
+.ddd{
+    letter-spacing: 20px;
+    text-align: center
+}
+.vvv{
+    letter-spacing: 25px;
+    text-align: center
+}
+.iii{
+    letter-spacing: 25px;
+    text-align: center
+}
+
+.home .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%,0%);
+    background: red;
+    text-align: center;
+    
+    
+}
+.home .button {
+    background: darkorange;
+    border: 2px solid darkorange;
+    color:#fff ;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer !important;
+    
+    
+}
+.home .button {
+    background: darkorange;
+    border: 2px solid darkorange;
+    color:#fff ;
+    padding: 20px,0;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+    z-index: 999999
+    
+    
+}
+.home .bbttnn {
+    text-align: center;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.btnns{
+    margin-left: 5px;
+    background: none !important;
+    color: darkorange!important;
+}
+.home .button:active{
+    color: darkorange;
+
+}
+
+.home .button:hover{
+    color: darkorange;
+    background: none;
+    border: 2px solid darkorange;
+    
+
+}
+@media (max-width:575px ){
+   .home .home-title{
+       visibility: visible;
+       font-size: 50px;
+       font-family: 'Signika Negative', sans-serif;
+   }
+   .home .button {
+    
+    margin-bottom: 10px;
+    }
+    .home .home-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);   
+        text-align: center;
+    }
+    .home {
+        height: 700px;
+        background-image: url(../images/homepic1.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .about .about-img img {
+    padding-left: -100px;
+    margin-top: 20px;
+
+   
+        
+    
+}
+
+}
+
+.debu{
+    
+    margin-left: 100px
+}
+/* about section*/
+.about{
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9
+}
+.about .qui{
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.about .qui:hover{
+    transform: scale(1.05);
+    cursor: pointer
+}
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 40px
+}
+
+.about .about-info h3 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about .about-info h3 span {
+    color: #ff914d;
+
+}
+.about .about-info .about-info-desc{
+    line-height: 1.8;
+    color: #ff914d;
+    margin-bottom: 20px;
+
+}
+.about .about-img img {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+   
+        
+    
+}
+
+.about .about-img img:hover {
+    transform: scale(1.01) translate(5px);
+    
+    
+    
+}
+
+.line span{
+    color: #ff914d;
+}
+.copyrights {
+    margin: 8px 0;
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+  }
+
+
+
+
+  #service {
+    margin-bottom: 150px;
+    margin-top: 150px;
+  }
+  
+  #service h2 {
+    text-transform: uppercase;
+      margin-bottom: 70px;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.3s ease-in-out;
+  }
+
+#service h2:hover{
+    transform: scale(1.05);
+    cursor: pointer
+}
+  
+  #service .container > p {
+    letter-spacing: 1px;
+  }
+  
+  #service .card {
+    background: transparent;
+    border: 1px solid #ff914d;
+    cursor: pointer;
+    height: 285px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #service .card img {
+    transform: scale(0.7);
+    transition: all 0.3s ease-in-out;
+    height: 230px;;
+  }
+  
+  #service .card .secure {
+    margin-top: -9.5px;
+    transform: scale(0.7);
+    padding-bottom: 0;
+  }
+  
+  #service .card h5 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  #service .card p {
+    font-size: .8em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  #service .card:hover {
+    background-color: #00012791;
+  }
+  
+  #service .card:hover img {
+    transform: scale(0.8);
+  }
+.btn{
+    cursor: pointer !important;
+}
